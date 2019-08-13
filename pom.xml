@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>spring-cloud-contract-text-git</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>spring-cloud-contract-text-git</name>
     <description>Demo project for Spring Boot</description>
 
@@ -60,7 +60,7 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-contract-maven-plugin</artifactId>
                 <configuration>
-                    <contractsRepositoryUrl>git://https://github.com/tuhucon/spring-cloud-contract-git.git</contractsRepositoryUrl>
+                    <contractsRepositoryUrl>git://git@github.com:tuhucon/spring-cloud-contract-git.git</contractsRepositoryUrl>
                     <!-- We reuse the contract dependency section to set up the path
         to the folder that contains the contract definitions. In our case the
         path will be /groupId/artifactId/version/contracts -->
